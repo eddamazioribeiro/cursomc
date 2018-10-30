@@ -84,8 +84,6 @@ public abstract class Pagamento implements Serializable{
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
-	}
-	
-	
+	}	
 
 }
